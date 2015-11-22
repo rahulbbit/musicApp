@@ -23,12 +23,6 @@
     
     UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
     
-    
-    
-    
-    
-    
-    
     slideNav = [mainStoryboard instantiateViewControllerWithIdentifier:@"SideBarViewController"];
     [SlideNavigationController sharedInstance].leftMenu=slideNav;
     [SlideNavigationController sharedInstance].avoidSwitchingToSameClassViewController = NO;
