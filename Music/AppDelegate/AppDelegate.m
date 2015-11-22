@@ -24,10 +24,7 @@
     UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
     
     
-    
-    
-    
-    
+     //LODA LODA LODA //
     
     slideNav = [mainStoryboard instantiateViewControllerWithIdentifier:@"SideBarViewController"];
     [SlideNavigationController sharedInstance].leftMenu=slideNav;
