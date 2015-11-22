@@ -8,24 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		5457672A1BFE4721009FB2FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 545767291BFE4721009FB2FC /* main.m */; };
-		5457672D1BFE4721009FB2FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5457672C1BFE4721009FB2FC /* AppDelegate.m */; };
-		545767301BFE4721009FB2FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5457672F1BFE4721009FB2FC /* ViewController.m */; };
 		545767331BFE4721009FB2FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545767311BFE4721009FB2FC /* Main.storyboard */; };
 		545767351BFE4721009FB2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545767341BFE4721009FB2FC /* Assets.xcassets */; };
 		545767381BFE4721009FB2FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545767361BFE4721009FB2FC /* LaunchScreen.storyboard */; };
+		546214A11C023B7900729C7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214961C023B7900729C7D /* AppDelegate.m */; };
+		546214A21C023B7900729C7D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5462149A1C023B7900729C7D /* LoginViewController.m */; };
+		546214A31C023B7900729C7D /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5462149D1C023B7900729C7D /* MusicPlayerViewController.m */; };
+		546214A41C023B7900729C7D /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214A01C023B7900729C7D /* SideBarViewController.m */; };
+		546214C11C023C1400729C7D /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214A81C023C1400729C7D /* DLRadioButton.m */; };
+		546214C21C023C1400729C7D /* JJMaterialTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214AB1C023C1400729C7D /* JJMaterialTextfield.m */; };
+		546214C31C023C1400729C7D /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214AE1C023C1400729C7D /* JVFloatLabeledTextField.m */; };
+		546214C41C023C1400729C7D /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214B01C023C1400729C7D /* JVFloatLabeledTextView.m */; };
+		546214C51C023C1400729C7D /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214B21C023C1400729C7D /* NSString+TextDirectionality.m */; };
+		546214C61C023C1400729C7D /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214B61C023C1400729C7D /* SlideNavigationContorllerAnimatorFade.m */; };
+		546214C71C023C1400729C7D /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214B81C023C1400729C7D /* SlideNavigationContorllerAnimatorScale.m */; };
+		546214C81C023C1400729C7D /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214BA1C023C1400729C7D /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		546214C91C023C1400729C7D /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214BC1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlide.m */; };
+		546214CA1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214BE1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		546214CB1C023C1400729C7D /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214C01C023C1400729C7D /* SlideNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		545767251BFE4721009FB2FC /* Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		545767291BFE4721009FB2FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5457672B1BFE4721009FB2FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5457672C1BFE4721009FB2FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5457672E1BFE4721009FB2FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5457672F1BFE4721009FB2FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		545767321BFE4721009FB2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		545767341BFE4721009FB2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		545767371BFE4721009FB2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		545767391BFE4721009FB2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546214951C023B7900729C7D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		546214961C023B7900729C7D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		546214991C023B7900729C7D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5462149A1C023B7900729C7D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5462149C1C023B7900729C7D /* MusicPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerViewController.h; sourceTree = "<group>"; };
+		5462149D1C023B7900729C7D /* MusicPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerViewController.m; sourceTree = "<group>"; };
+		5462149F1C023B7900729C7D /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarViewController.h; sourceTree = "<group>"; };
+		546214A01C023B7900729C7D /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarViewController.m; sourceTree = "<group>"; };
+		546214A71C023C1400729C7D /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
+		546214A81C023C1400729C7D /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
+		546214AA1C023C1400729C7D /* JJMaterialTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMaterialTextfield.h; sourceTree = "<group>"; };
+		546214AB1C023C1400729C7D /* JJMaterialTextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMaterialTextfield.m; sourceTree = "<group>"; };
+		546214AD1C023C1400729C7D /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		546214AE1C023C1400729C7D /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		546214AF1C023C1400729C7D /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		546214B01C023C1400729C7D /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		546214B11C023C1400729C7D /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		546214B21C023C1400729C7D /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		546214B41C023C1400729C7D /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		546214B51C023C1400729C7D /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		546214B61C023C1400729C7D /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		546214B71C023C1400729C7D /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		546214B81C023C1400729C7D /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		546214B91C023C1400729C7D /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		546214BA1C023C1400729C7D /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		546214BB1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		546214BC1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		546214BD1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		546214BE1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		546214BF1C023C1400729C7D /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
+		546214C01C023C1400729C7D /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +98,10 @@
 		545767271BFE4721009FB2FC /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				5457672B1BFE4721009FB2FC /* AppDelegate.h */,
-				5457672C1BFE4721009FB2FC /* AppDelegate.m */,
-				5457672E1BFE4721009FB2FC /* ViewController.h */,
-				5457672F1BFE4721009FB2FC /* ViewController.m */,
+				546214A51C023C1400729C7D /* Resources */,
+				546214941C023B7900729C7D /* AppDelegate */,
+				546214971C023B7900729C7D /* MusicPlayerViewController */,
+				5462149E1C023B7900729C7D /* SideMenu */,
 				545767311BFE4721009FB2FC /* Main.storyboard */,
 				545767341BFE4721009FB2FC /* Assets.xcassets */,
 				545767361BFE4721009FB2FC /* LaunchScreen.storyboard */,
@@ -77,6 +117,113 @@
 				545767291BFE4721009FB2FC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		546214941C023B7900729C7D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				546214951C023B7900729C7D /* AppDelegate.h */,
+				546214961C023B7900729C7D /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		546214971C023B7900729C7D /* MusicPlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				546214981C023B7900729C7D /* LoginVc */,
+				5462149B1C023B7900729C7D /* MusicPlayerVC */,
+			);
+			path = MusicPlayerViewController;
+			sourceTree = "<group>";
+		};
+		546214981C023B7900729C7D /* LoginVc */ = {
+			isa = PBXGroup;
+			children = (
+				546214991C023B7900729C7D /* LoginViewController.h */,
+				5462149A1C023B7900729C7D /* LoginViewController.m */,
+			);
+			path = LoginVc;
+			sourceTree = "<group>";
+		};
+		5462149B1C023B7900729C7D /* MusicPlayerVC */ = {
+			isa = PBXGroup;
+			children = (
+				5462149C1C023B7900729C7D /* MusicPlayerViewController.h */,
+				5462149D1C023B7900729C7D /* MusicPlayerViewController.m */,
+			);
+			path = MusicPlayerVC;
+			sourceTree = "<group>";
+		};
+		5462149E1C023B7900729C7D /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5462149F1C023B7900729C7D /* SideBarViewController.h */,
+				546214A01C023B7900729C7D /* SideBarViewController.m */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		546214A51C023C1400729C7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				546214A61C023C1400729C7D /* DLRadioButton */,
+				546214A91C023C1400729C7D /* JJTextField */,
+				546214AC1C023C1400729C7D /* JVFloatLabeledTextField */,
+				546214B31C023C1400729C7D /* SlideBar */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		546214A61C023C1400729C7D /* DLRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				546214A71C023C1400729C7D /* DLRadioButton.h */,
+				546214A81C023C1400729C7D /* DLRadioButton.m */,
+			);
+			path = DLRadioButton;
+			sourceTree = "<group>";
+		};
+		546214A91C023C1400729C7D /* JJTextField */ = {
+			isa = PBXGroup;
+			children = (
+				546214AA1C023C1400729C7D /* JJMaterialTextfield.h */,
+				546214AB1C023C1400729C7D /* JJMaterialTextfield.m */,
+			);
+			path = JJTextField;
+			sourceTree = "<group>";
+		};
+		546214AC1C023C1400729C7D /* JVFloatLabeledTextField */ = {
+			isa = PBXGroup;
+			children = (
+				546214AD1C023C1400729C7D /* JVFloatLabeledTextField.h */,
+				546214AE1C023C1400729C7D /* JVFloatLabeledTextField.m */,
+				546214AF1C023C1400729C7D /* JVFloatLabeledTextView.h */,
+				546214B01C023C1400729C7D /* JVFloatLabeledTextView.m */,
+				546214B11C023C1400729C7D /* NSString+TextDirectionality.h */,
+				546214B21C023C1400729C7D /* NSString+TextDirectionality.m */,
+			);
+			path = JVFloatLabeledTextField;
+			sourceTree = "<group>";
+		};
+		546214B31C023C1400729C7D /* SlideBar */ = {
+			isa = PBXGroup;
+			children = (
+				546214B41C023C1400729C7D /* SlideNavigationContorllerAnimator.h */,
+				546214B51C023C1400729C7D /* SlideNavigationContorllerAnimatorFade.h */,
+				546214B61C023C1400729C7D /* SlideNavigationContorllerAnimatorFade.m */,
+				546214B71C023C1400729C7D /* SlideNavigationContorllerAnimatorScale.h */,
+				546214B81C023C1400729C7D /* SlideNavigationContorllerAnimatorScale.m */,
+				546214B91C023C1400729C7D /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				546214BA1C023C1400729C7D /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				546214BB1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlide.h */,
+				546214BC1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlide.m */,
+				546214BD1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				546214BE1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+				546214BF1C023C1400729C7D /* SlideNavigationController.h */,
+				546214C01C023C1400729C7D /* SlideNavigationController.m */,
+			);
+			path = SlideBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +296,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				545767301BFE4721009FB2FC /* ViewController.m in Sources */,
-				5457672D1BFE4721009FB2FC /* AppDelegate.m in Sources */,
+				546214C61C023C1400729C7D /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				546214A11C023B7900729C7D /* AppDelegate.m in Sources */,
+				546214C11C023C1400729C7D /* DLRadioButton.m in Sources */,
+				546214C21C023C1400729C7D /* JJMaterialTextfield.m in Sources */,
 				5457672A1BFE4721009FB2FC /* main.m in Sources */,
+				546214C31C023C1400729C7D /* JVFloatLabeledTextField.m in Sources */,
+				546214C91C023C1400729C7D /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+				546214A21C023B7900729C7D /* LoginViewController.m in Sources */,
+				546214CA1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				546214C71C023C1400729C7D /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				546214C41C023C1400729C7D /* JVFloatLabeledTextView.m in Sources */,
+				546214CB1C023C1400729C7D /* SlideNavigationController.m in Sources */,
+				546214A41C023B7900729C7D /* SideBarViewController.m in Sources */,
+				546214C81C023C1400729C7D /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
+				546214C51C023C1400729C7D /* NSString+TextDirectionality.m in Sources */,
+				546214A31C023B7900729C7D /* MusicPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +460,7 @@
 				5457673E1BFE4721009FB2FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
