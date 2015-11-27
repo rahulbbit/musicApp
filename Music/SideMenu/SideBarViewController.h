@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CollaborateSearchViewController.h"
+#import "RecordViewController.h"
+#import "SlideNavigationController.h"
+
 
 @interface SideBarViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 {
@@ -14,5 +18,6 @@
     __weak IBOutlet UITableView *tableViewObject;
 }
 @property(strong,nonatomic)NSArray *arrayViewName;
+@property(assign,nonatomic)BOOL slideOutAnimationEnabled;
 
 @end

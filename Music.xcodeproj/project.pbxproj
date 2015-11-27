@@ -26,6 +26,13 @@
 		546214C91C023C1400729C7D /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214BC1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlide.m */; };
 		546214CA1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214BE1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
 		546214CB1C023C1400729C7D /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214C01C023C1400729C7D /* SlideNavigationController.m */; };
+		54DC0E3D1C0817C800282612 /* CollaborateSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC0E3C1C0817C800282612 /* CollaborateSearchViewController.m */; };
+		54DC0E451C08188200282612 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC0E441C08188200282612 /* NextViewController.m */; };
+		54DC0E491C0818D600282612 /* RecordYesorNoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC0E481C0818D600282612 /* RecordYesorNoViewController.m */; };
+		54DC0E4D1C08194200282612 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC0E4C1C08194200282612 /* RegisterViewController.m */; };
+		54DC0E511C0819A700282612 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC0E501C0819A700282612 /* RecordViewController.m */; };
+		54DC0E551C081A1100282612 /* notificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC0E541C081A1100282612 /* notificationViewController.m */; };
+		54DC0E591C081A6400282612 /* RecordingProcessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC0E581C081A6400282612 /* RecordingProcessViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +73,20 @@
 		546214BE1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
 		546214BF1C023C1400729C7D /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
 		546214C01C023C1400729C7D /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
+		54DC0E3B1C0817C800282612 /* CollaborateSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollaborateSearchViewController.h; path = "Collaborate Search/CollaborateSearchViewController.h"; sourceTree = "<group>"; };
+		54DC0E3C1C0817C800282612 /* CollaborateSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollaborateSearchViewController.m; path = "Collaborate Search/CollaborateSearchViewController.m"; sourceTree = "<group>"; };
+		54DC0E431C08188200282612 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NextViewController.h; path = Login/NextViewController.h; sourceTree = "<group>"; };
+		54DC0E441C08188200282612 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NextViewController.m; path = Login/NextViewController.m; sourceTree = "<group>"; };
+		54DC0E471C0818D600282612 /* RecordYesorNoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecordYesorNoViewController.h; path = RecordYesOrNo/RecordYesorNoViewController.h; sourceTree = "<group>"; };
+		54DC0E481C0818D600282612 /* RecordYesorNoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecordYesorNoViewController.m; path = RecordYesOrNo/RecordYesorNoViewController.m; sourceTree = "<group>"; };
+		54DC0E4B1C08194200282612 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = RegisterVC/RegisterViewController.h; sourceTree = "<group>"; };
+		54DC0E4C1C08194200282612 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = RegisterVC/RegisterViewController.m; sourceTree = "<group>"; };
+		54DC0E4F1C0819A700282612 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecordViewController.h; path = RecordVC/RecordViewController.h; sourceTree = "<group>"; };
+		54DC0E501C0819A700282612 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecordViewController.m; path = RecordVC/RecordViewController.m; sourceTree = "<group>"; };
+		54DC0E531C081A1100282612 /* notificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = notificationViewController.h; path = Notification/notificationViewController.h; sourceTree = "<group>"; };
+		54DC0E541C081A1100282612 /* notificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = notificationViewController.m; path = Notification/notificationViewController.m; sourceTree = "<group>"; };
+		54DC0E571C081A6400282612 /* RecordingProcessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecordingProcessViewController.h; path = Recording/RecordingProcessViewController.h; sourceTree = "<group>"; };
+		54DC0E581C081A6400282612 /* RecordingProcessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecordingProcessViewController.m; path = Recording/RecordingProcessViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +154,13 @@
 			children = (
 				546214981C023B7900729C7D /* LoginVc */,
 				5462149B1C023B7900729C7D /* MusicPlayerVC */,
+				54DC0E3E1C0817F100282612 /* Collaborate Search */,
+				54DC0E461C08188F00282612 /* NextVC */,
+				54DC0E4A1C0818DD00282612 /* RecordYesorNo */,
+				54DC0E4E1C08195500282612 /* RegisterVC */,
+				54DC0E521C0819B900282612 /* RecordVC */,
+				54DC0E561C081A1A00282612 /* Notifications */,
+				54DC0E5A1C081A6D00282612 /* RecordingProcess */,
 			);
 			path = MusicPlayerViewController;
 			sourceTree = "<group>";
@@ -226,6 +254,69 @@
 			path = SlideBar;
 			sourceTree = "<group>";
 		};
+		54DC0E3E1C0817F100282612 /* Collaborate Search */ = {
+			isa = PBXGroup;
+			children = (
+				54DC0E3B1C0817C800282612 /* CollaborateSearchViewController.h */,
+				54DC0E3C1C0817C800282612 /* CollaborateSearchViewController.m */,
+			);
+			name = "Collaborate Search";
+			sourceTree = "<group>";
+		};
+		54DC0E461C08188F00282612 /* NextVC */ = {
+			isa = PBXGroup;
+			children = (
+				54DC0E431C08188200282612 /* NextViewController.h */,
+				54DC0E441C08188200282612 /* NextViewController.m */,
+			);
+			name = NextVC;
+			sourceTree = "<group>";
+		};
+		54DC0E4A1C0818DD00282612 /* RecordYesorNo */ = {
+			isa = PBXGroup;
+			children = (
+				54DC0E471C0818D600282612 /* RecordYesorNoViewController.h */,
+				54DC0E481C0818D600282612 /* RecordYesorNoViewController.m */,
+			);
+			name = RecordYesorNo;
+			sourceTree = "<group>";
+		};
+		54DC0E4E1C08195500282612 /* RegisterVC */ = {
+			isa = PBXGroup;
+			children = (
+				54DC0E4B1C08194200282612 /* RegisterViewController.h */,
+				54DC0E4C1C08194200282612 /* RegisterViewController.m */,
+			);
+			name = RegisterVC;
+			sourceTree = "<group>";
+		};
+		54DC0E521C0819B900282612 /* RecordVC */ = {
+			isa = PBXGroup;
+			children = (
+				54DC0E4F1C0819A700282612 /* RecordViewController.h */,
+				54DC0E501C0819A700282612 /* RecordViewController.m */,
+			);
+			name = RecordVC;
+			sourceTree = "<group>";
+		};
+		54DC0E561C081A1A00282612 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				54DC0E531C081A1100282612 /* notificationViewController.h */,
+				54DC0E541C081A1100282612 /* notificationViewController.m */,
+			);
+			name = Notifications;
+			sourceTree = "<group>";
+		};
+		54DC0E5A1C081A6D00282612 /* RecordingProcess */ = {
+			isa = PBXGroup;
+			children = (
+				54DC0E571C081A6400282612 /* RecordingProcessViewController.h */,
+				54DC0E581C081A6400282612 /* RecordingProcessViewController.m */,
+			);
+			name = RecordingProcess;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -297,18 +388,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				546214C61C023C1400729C7D /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				54DC0E451C08188200282612 /* NextViewController.m in Sources */,
 				546214A11C023B7900729C7D /* AppDelegate.m in Sources */,
 				546214C11C023C1400729C7D /* DLRadioButton.m in Sources */,
 				546214C21C023C1400729C7D /* JJMaterialTextfield.m in Sources */,
+				54DC0E551C081A1100282612 /* notificationViewController.m in Sources */,
+				54DC0E491C0818D600282612 /* RecordYesorNoViewController.m in Sources */,
 				5457672A1BFE4721009FB2FC /* main.m in Sources */,
 				546214C31C023C1400729C7D /* JVFloatLabeledTextField.m in Sources */,
 				546214C91C023C1400729C7D /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 				546214A21C023B7900729C7D /* LoginViewController.m in Sources */,
+				54DC0E591C081A6400282612 /* RecordingProcessViewController.m in Sources */,
 				546214CA1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
 				546214C71C023C1400729C7D /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				54DC0E511C0819A700282612 /* RecordViewController.m in Sources */,
 				546214C41C023C1400729C7D /* JVFloatLabeledTextView.m in Sources */,
 				546214CB1C023C1400729C7D /* SlideNavigationController.m in Sources */,
 				546214A41C023B7900729C7D /* SideBarViewController.m in Sources */,
+				54DC0E4D1C08194200282612 /* RegisterViewController.m in Sources */,
+				54DC0E3D1C0817C800282612 /* CollaborateSearchViewController.m in Sources */,
 				546214C81C023C1400729C7D /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
 				546214C51C023C1400729C7D /* NSString+TextDirectionality.m in Sources */,
 				546214A31C023B7900729C7D /* MusicPlayerViewController.m in Sources */,

@@ -67,6 +67,37 @@
     }
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    [tableView deselectRowAtIndexPath:[tableView indexPathForSelectedRow] animated:YES];
+
+    if (indexPath.row == 1)
+    {
+        CollaborateSearchViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"CollaborateSearchViewController"];
+        [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc withSlideOutAnimation:self.slideOutAnimationEnabled andCompletion:nil];
+        
+
+    }
+    else if (indexPath.row == 2)
+    {
+        
+    }
+    else if (indexPath.row == 3)
+    {
+        
+    }
+    else if (indexPath.row == 4)
+    {
+        RecordViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"RecordViewController"];
+        [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc withSlideOutAnimation:self.slideOutAnimationEnabled andCompletion:nil];
+        
+
+        
+    }
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

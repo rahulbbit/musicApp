@@ -12,8 +12,10 @@
 #import "SlideNavigationController.h"
 
 
+
 @interface LoginViewController : UIViewController<SlideNavigationControllerDelegate>
 @property (weak, nonatomic) IBOutlet JJMaterialTextfield *txtEmail;
 @property (weak, nonatomic) IBOutlet JJMaterialTextfield *txtPassword;
+- (IBAction)btnlogin:(id)sender;
 
 @end
