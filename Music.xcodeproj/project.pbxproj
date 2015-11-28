@@ -33,6 +33,8 @@
 		54DC0E511C0819A700282612 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC0E501C0819A700282612 /* RecordViewController.m */; };
 		54DC0E551C081A1100282612 /* notificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC0E541C081A1100282612 /* notificationViewController.m */; };
 		54DC0E591C081A6400282612 /* RecordingProcessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC0E581C081A6400282612 /* RecordingProcessViewController.m */; };
+		77A0D4321C0A36E4006FE66E /* ArtistSuffleViewCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A0D4311C0A36E4006FE66E /* ArtistSuffleViewCViewController.m */; };
+		77A0D4351C0A371A006FE66E /* ArtistListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A0D4341C0A371A006FE66E /* ArtistListCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +89,10 @@
 		54DC0E541C081A1100282612 /* notificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = notificationViewController.m; path = Notification/notificationViewController.m; sourceTree = "<group>"; };
 		54DC0E571C081A6400282612 /* RecordingProcessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecordingProcessViewController.h; path = Recording/RecordingProcessViewController.h; sourceTree = "<group>"; };
 		54DC0E581C081A6400282612 /* RecordingProcessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecordingProcessViewController.m; path = Recording/RecordingProcessViewController.m; sourceTree = "<group>"; };
+		77A0D4301C0A36E4006FE66E /* ArtistSuffleViewCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistSuffleViewCViewController.h; sourceTree = "<group>"; };
+		77A0D4311C0A36E4006FE66E /* ArtistSuffleViewCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistSuffleViewCViewController.m; sourceTree = "<group>"; };
+		77A0D4331C0A371A006FE66E /* ArtistListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistListCollectionViewCell.h; sourceTree = "<group>"; };
+		77A0D4341C0A371A006FE66E /* ArtistListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistListCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +158,7 @@
 		546214971C023B7900729C7D /* MusicPlayerViewController */ = {
 			isa = PBXGroup;
 			children = (
+				77A0D42F1C0A36B5006FE66E /* ArtistSuffle */,
 				546214981C023B7900729C7D /* LoginVc */,
 				5462149B1C023B7900729C7D /* MusicPlayerVC */,
 				54DC0E3E1C0817F100282612 /* Collaborate Search */,
@@ -317,6 +324,17 @@
 			name = RecordingProcess;
 			sourceTree = "<group>";
 		};
+		77A0D42F1C0A36B5006FE66E /* ArtistSuffle */ = {
+			isa = PBXGroup;
+			children = (
+				77A0D4301C0A36E4006FE66E /* ArtistSuffleViewCViewController.h */,
+				77A0D4311C0A36E4006FE66E /* ArtistSuffleViewCViewController.m */,
+				77A0D4331C0A371A006FE66E /* ArtistListCollectionViewCell.h */,
+				77A0D4341C0A371A006FE66E /* ArtistListCollectionViewCell.m */,
+			);
+			name = ArtistSuffle;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -393,7 +411,9 @@
 				546214C11C023C1400729C7D /* DLRadioButton.m in Sources */,
 				546214C21C023C1400729C7D /* JJMaterialTextfield.m in Sources */,
 				54DC0E551C081A1100282612 /* notificationViewController.m in Sources */,
+				77A0D4351C0A371A006FE66E /* ArtistListCollectionViewCell.m in Sources */,
 				54DC0E491C0818D600282612 /* RecordYesorNoViewController.m in Sources */,
+				77A0D4321C0A36E4006FE66E /* ArtistSuffleViewCViewController.m in Sources */,
 				5457672A1BFE4721009FB2FC /* main.m in Sources */,
 				546214C31C023C1400729C7D /* JVFloatLabeledTextField.m in Sources */,
 				546214C91C023C1400729C7D /* SlideNavigationContorllerAnimatorSlide.m in Sources */,

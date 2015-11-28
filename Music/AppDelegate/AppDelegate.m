@@ -26,10 +26,12 @@
     slideNav = [mainStoryboard instantiateViewControllerWithIdentifier:@"SideBarViewController"];
     [SlideNavigationController sharedInstance].leftMenu=slideNav;
     [SlideNavigationController sharedInstance].avoidSwitchingToSameClassViewController = NO;
-    
-    
-
+    [application setStatusBarStyle:UIStatusBarStyleLightContent];
     return YES;
+}
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
