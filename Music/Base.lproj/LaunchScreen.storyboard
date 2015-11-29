@@ -3,6 +3,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,8 +18,30 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="syJ-LG-JPq">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="6ZU-QP-TkD">
+                                <rect key="frame" x="240" y="260" width="120" height="80"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6ZU-QP-TkD" secondAttribute="height" multiplier="3:2" id="IVe-Cb-52F"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="syJ-LG-JPq" secondAttribute="bottom" id="C0Q-OM-LjH"/>
+                            <constraint firstItem="6ZU-QP-TkD" firstAttribute="width" secondItem="syJ-LG-JPq" secondAttribute="width" multiplier="0.2" id="JMM-qC-Cry"/>
+                            <constraint firstAttribute="trailing" secondItem="syJ-LG-JPq" secondAttribute="trailing" id="Jf5-jF-mDb"/>
+                            <constraint firstItem="syJ-LG-JPq" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Qsg-xs-tGR"/>
+                            <constraint firstItem="syJ-LG-JPq" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ucg-RH-y0B"/>
+                            <constraint firstItem="6ZU-QP-TkD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vtf-4w-y46"/>
+                            <constraint firstItem="6ZU-QP-TkD" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="yr5-xW-F3y"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -25,4 +49,8 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Splash" width="414" height="736"/>
+        <image name="logo" width="137" height="101"/>
+    </resources>
 </document>
