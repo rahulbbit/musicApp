@@ -8,14 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "JVFloatLabeledTextField.h"
-#import "JJMaterialTextfield.h"
 #import "SlideNavigationController.h"
 
 
 
-@interface LoginViewController : UIViewController<SlideNavigationControllerDelegate>
-@property (weak, nonatomic) IBOutlet JJMaterialTextfield *txtEmail;
-@property (weak, nonatomic) IBOutlet JJMaterialTextfield *txtPassword;
+@interface LoginViewController : UIViewController<SlideNavigationControllerDelegate,UITextFieldDelegate>
 - (IBAction)btnlogin:(id)sender;
 
 @end

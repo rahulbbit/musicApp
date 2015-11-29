@@ -14,6 +14,9 @@
 
 @implementation SideBarViewController
 @synthesize arrayViewName;
+
+#pragma mark Life Cycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -21,6 +24,7 @@
     
 }
 
+#pragma mark UITableView Delegate and DataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
 {
@@ -42,9 +46,8 @@
     [tableView setSeparatorColor:[UIColor whiteColor]];
 
     return cell;
-    
-}
 
+}
 -(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if ([cell respondsToSelector:@selector(setSeparatorInset:)]) {
@@ -56,28 +59,14 @@
     }
 }
 
--(void)viewDidLayoutSubviews
-{
-    if ([tableViewObject respondsToSelector:@selector(setSeparatorInset:)]) {
-        [tableViewObject setSeparatorInset:UIEdgeInsetsZero];
-    }
-    
-    if ([tableViewObject respondsToSelector:@selector(setLayoutMargins:)]) {
-        [tableViewObject setLayoutMargins:UIEdgeInsetsZero];
-    }
-}
-
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
     [tableView deselectRowAtIndexPath:[tableView indexPathForSelectedRow] animated:YES];
-
+   
     if (indexPath.row == 1)
     {
         CollaborateSearchViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"CollaborateSearchViewController"];
         [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc withSlideOutAnimation:self.slideOutAnimationEnabled andCompletion:nil];
-        
-
     }
     else if (indexPath.row == 2)
     {
@@ -91,12 +80,19 @@
     {
         RecordViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"RecordViewController"];
         [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc withSlideOutAnimation:self.slideOutAnimationEnabled andCompletion:nil];
-        
-
-        
     }
 }
 
+-(void)viewDidLayoutSubviews
+{
+    if ([tableViewObject respondsToSelector:@selector(setSeparatorInset:)]) {
+        [tableViewObject setSeparatorInset:UIEdgeInsetsZero];
+    }
+    
+    if ([tableViewObject respondsToSelector:@selector(setLayoutMargins:)]) {
+        [tableViewObject setLayoutMargins:UIEdgeInsetsZero];
+    }
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

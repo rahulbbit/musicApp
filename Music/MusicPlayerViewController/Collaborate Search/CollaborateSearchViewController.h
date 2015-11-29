@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CollaborateSearchViewController : UIViewController
+@interface CollaborateSearchViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @end

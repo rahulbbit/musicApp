@@ -16,13 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.txtEmail.translatesAutoresizingMaskIntoConstraints = NO;
 
-    self.txtEmail.lineColor=[UIColor colorWithRed:0.482 green:0.800 blue:1.000 alpha:1.000];
-    self.txtEmail.tintColor=[UIColor colorWithRed:0.482 green:0.800 blue:1.000 alpha:1.000];
-    self.txtEmail.textColor=[UIColor grayColor];
-
-    [self.txtEmail enableMaterialPlaceHolder:YES];
     // Do any additional setup after loading the view.
 }
 

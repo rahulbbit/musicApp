@@ -27,6 +27,13 @@
     [SlideNavigationController sharedInstance].leftMenu=slideNav;
     [SlideNavigationController sharedInstance].avoidSwitchingToSameClassViewController = NO;
     [application setStatusBarStyle:UIStatusBarStyleLightContent];
+ 
+    [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],
+     NSForegroundColorAttributeName,[UIColor whiteColor],NSForegroundColorAttributeName,[NSValue valueWithUIOffset:UIOffsetMake(0, -1)],NSForegroundColorAttributeName,[UIFont fontWithName:@"Arial-Bold" size:0.0],NSFontAttributeName,nil]];
+    
+    
+    
+    
     return YES;
 }
 - (UIStatusBarStyle)preferredStatusBarStyle
