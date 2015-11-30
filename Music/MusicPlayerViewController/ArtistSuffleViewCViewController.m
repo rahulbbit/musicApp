@@ -8,6 +8,7 @@
 
 #import "ArtistSuffleViewCViewController.h"
 #import "ArtistListCollectionViewCell.h"
+#import "MusicPlayerViewController.h"
 
 @interface ArtistSuffleViewCViewController ()
 
@@ -51,13 +52,11 @@
     
     return CGSizeMake(self.view.frame.size.width/4, self.view.frame.size.width/4);
 }
-
 #pragma mark - Slide Navigation Controller Delegate
 - (BOOL)slideNavigationControllerShouldDisplayLeftMenu
 {
     return YES;
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -76,7 +75,10 @@
 */
 
 - (IBAction)BarButtonPush:(id)sender {
-    [self.navigationController popToRootViewControllerAnimated:YES];
+ 
 
+    MusicPlayerViewController *musicVc=[self.storyboard instantiateViewControllerWithIdentifier:@"MusicPlayerViewController"];
+    
+    [self.navigationController pushViewController:musicVc animated:YES];
 }
 @end
