@@ -22,6 +22,15 @@
     // Do any additional setup after loading the view.
      arrayViewName =[NSArray arrayWithObjects:@"DISCOVER",@"COLLABORATE",@"YOUR MUSIC",@"PROFILE",@"RECORD", nil];
     
+    
+    //self.navigationController.navigationBar.backgroundColor= [UIColor colorWithRed:76.0/255.0 green:78.0/255 blue:84.0/255 alpha:1.0];
+    
+    
+    [[UINavigationBar appearance]setTintColor:[UIColor colorWithRed:76.0/255.0 green:78.0/255 blue:84.0/255 alpha:1.0]];
+    
+    [[UINavigationBar appearance] setTranslucent:NO];
+
+    
 }
 
 #pragma mark UITableView Delegate and DataSource

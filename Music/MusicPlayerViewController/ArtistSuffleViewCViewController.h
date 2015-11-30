@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SlideNavigationController.h"
 
-@interface ArtistSuffleViewCViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate>
+@interface ArtistSuffleViewCViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate,SlideNavigationControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 

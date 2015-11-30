@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface CollaborateSearchViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+{
+    
+    __weak IBOutlet UISearchBar *searchBar;
+}
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @end
