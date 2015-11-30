@@ -25,7 +25,6 @@
 
 - (IBAction)dropBoxAction:(id)sender {
 
-
 }
 
 #pragma mark - UICollectionView Datasource and Delegate
@@ -45,10 +44,26 @@
     return cell;
 }
 
+- (CGSize)collectionView:(UICollectionView *)collectionView
+                  layout:(UICollectionViewLayout *)collectionViewLayout
+  sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    return CGSizeMake(self.view.frame.size.width/4, self.view.frame.size.width/4);
+}
+
+#pragma mark - Slide Navigation Controller Delegate
+- (BOOL)slideNavigationControllerShouldDisplayLeftMenu
+{
+    return YES;
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 /*
 #pragma mark - Navigation
@@ -60,4 +75,8 @@
 }
 */
 
+- (IBAction)BarButtonPush:(id)sender {
+    [self.navigationController popToRootViewControllerAnimated:YES];
+
+}
 @end

@@ -20,11 +20,6 @@
     // Do any additional setup after loading the view.
 }
 
-#pragma mark - Slide Navigation Controller Delegate
-- (BOOL)slideNavigationControllerShouldDisplayLeftMenu
-{
-    return YES;
-}
 
 
 - (void)didReceiveMemoryWarning {
@@ -43,5 +38,7 @@
 */
 
 - (IBAction)btnlogin:(id)sender {
+    ArtistSuffleViewCViewController *artist = [self.storyboard instantiateViewControllerWithIdentifier:@"ArtistSuffleViewCViewController"];
+    [self.navigationController pushViewController:artist animated:YES];
 }
 @end
