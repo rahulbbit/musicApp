@@ -18,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    [searchBar setBackgroundColor:[UIColor clearColor]];
+    [searchBar setBarTintColor:[UIColor clearColor]]; //this is what you want
+
     // Do any additional setup after loading the view.
 }
 
