@@ -26,6 +26,7 @@
 		546214CA1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214BE1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
 		546214CB1C023C1400729C7D /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214C01C023C1400729C7D /* SlideNavigationController.m */; };
 		549D1EDE1C0CD9E10056B596 /* JJMaterialTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 549D1EDD1C0CD9E10056B596 /* JJMaterialTextfield.m */; };
+		54B71F191C0E0C1B00F2CF72 /* leftSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B71F181C0E0C1B00F2CF72 /* leftSpace.m */; };
 		54DC0E3D1C0817C800282612 /* CollaborateSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC0E3C1C0817C800282612 /* CollaborateSearchViewController.m */; };
 		54DC0E451C08188200282612 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC0E441C08188200282612 /* NextViewController.m */; };
 		54DC0E491C0818D600282612 /* RecordYesorNoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC0E481C0818D600282612 /* RecordYesorNoViewController.m */; };
@@ -77,6 +78,8 @@
 		546214C01C023C1400729C7D /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
 		549D1EDC1C0CD9E10056B596 /* JJMaterialTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMaterialTextfield.h; sourceTree = "<group>"; };
 		549D1EDD1C0CD9E10056B596 /* JJMaterialTextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMaterialTextfield.m; sourceTree = "<group>"; };
+		54B71F171C0E0C1B00F2CF72 /* leftSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leftSpace.h; sourceTree = "<group>"; };
+		54B71F181C0E0C1B00F2CF72 /* leftSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = leftSpace.m; sourceTree = "<group>"; };
 		54DC0E3B1C0817C800282612 /* CollaborateSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollaborateSearchViewController.h; path = "Collaborate Search/CollaborateSearchViewController.h"; sourceTree = "<group>"; };
 		54DC0E3C1C0817C800282612 /* CollaborateSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollaborateSearchViewController.m; path = "Collaborate Search/CollaborateSearchViewController.m"; sourceTree = "<group>"; };
 		54DC0E431C08188200282612 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NextViewController.h; path = Login/NextViewController.h; sourceTree = "<group>"; };
@@ -175,6 +178,8 @@
 				54DC0E521C0819B900282612 /* RecordVC */,
 				54DC0E561C081A1A00282612 /* Notifications */,
 				54DC0E5A1C081A6D00282612 /* RecordingProcess */,
+				54B71F171C0E0C1B00F2CF72 /* leftSpace.h */,
+				54B71F181C0E0C1B00F2CF72 /* leftSpace.m */,
 			);
 			path = MusicPlayerViewController;
 			sourceTree = "<group>";
@@ -436,6 +441,7 @@
 				546214C31C023C1400729C7D /* JVFloatLabeledTextField.m in Sources */,
 				546214C91C023C1400729C7D /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 				546214A21C023B7900729C7D /* LoginViewController.m in Sources */,
+				54B71F191C0E0C1B00F2CF72 /* leftSpace.m in Sources */,
 				54DC0E591C081A6400282612 /* RecordingProcessViewController.m in Sources */,
 				546214CA1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
 				546214C71C023C1400729C7D /* SlideNavigationContorllerAnimatorScale.m in Sources */,

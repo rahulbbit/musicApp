@@ -1321,15 +1321,15 @@
                                 <animations/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vzO-mC-t5E">
-                                <rect key="frame" x="58" y="247" width="300" height="58"/>
+                                <rect key="frame" x="30" y="165" width="300" height="29"/>
                                 <animations/>
                                 <string key="text">of type and scrambled it to make a type specimen book. It has survived not Lorem Ipsum passages, and more recently with desktop publishing software like Aldus</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Title" textAlignment="natural" minimumFontSize="17" background="btnBackground" translatesAutoresizingMaskIntoConstraints="NO" id="mzv-qB-pbK">
-                                <rect key="frame" x="36" y="390" width="304" height="42"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Title" textAlignment="natural" minimumFontSize="17" background="btnBackground" translatesAutoresizingMaskIntoConstraints="NO" id="mzv-qB-pbK" customClass="leftSpace">
+                                <rect key="frame" x="36" y="234" width="304" height="42"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1338,15 +1338,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Artist" textAlignment="natural" minimumFontSize="17" background="btnBackground" translatesAutoresizingMaskIntoConstraints="NO" id="TyR-v1-Wax">
-                                <rect key="frame" x="36" y="453" width="304" height="42"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Artist" textAlignment="natural" minimumFontSize="17" background="btnBackground" translatesAutoresizingMaskIntoConstraints="NO" id="TyR-v1-Wax" customClass="leftSpace">
+                                <rect key="frame" x="36" y="297" width="304" height="42"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgR-fK-oUl">
-                                <rect key="frame" x="143" y="519" width="91" height="39"/>
+                                <rect key="frame" x="143" y="363" width="91" height="39"/>
                                 <animations/>
                                 <state key="normal" title="Next" backgroundImage="recordBtnScreen">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1378,24 +1378,24 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PageMaker including versions of Lorem Ipsum." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ux-5V-aFg">
-                                <rect key="frame" x="58" y="335" width="300" height="15"/>
+                                <rect key="frame" x="30" y="209" width="300" height="10"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <color key="textColor" red="0.97423453282828287" green="0.040877047101917863" blue="0.20005313372056543" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4t1-xG-dsr">
-                                <rect key="frame" x="58" y="122" width="88" height="21"/>
+                                <rect key="frame" x="30" y="84" width="88" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dol-TO-ZYQ">
-                                <rect key="frame" x="58" y="173" width="300" height="58"/>
+                                <rect key="frame" x="30" y="120" width="300" height="29"/>
                                 <animations/>
                                 <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1403,23 +1403,23 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="1ux-5V-aFg" firstAttribute="top" secondItem="vzO-mC-t5E" secondAttribute="bottom" constant="30" id="1mK-pp-sel"/>
+                            <constraint firstItem="1ux-5V-aFg" firstAttribute="top" secondItem="vzO-mC-t5E" secondAttribute="bottom" constant="15" id="1mK-pp-sel"/>
                             <constraint firstItem="vzO-mC-t5E" firstAttribute="leading" secondItem="Dol-TO-ZYQ" secondAttribute="leading" id="4nz-YW-UtS"/>
                             <constraint firstItem="mzv-qB-pbK" firstAttribute="height" secondItem="eNS-QI-LmK" secondAttribute="height" multiplier="0.07" id="5x1-7M-fGr"/>
                             <constraint firstItem="1ux-5V-aFg" firstAttribute="trailing" secondItem="vzO-mC-t5E" secondAttribute="trailing" id="6KZ-yo-dlM"/>
                             <constraint firstItem="4wc-v8-HuX" firstAttribute="top" secondItem="RWB-xp-d54" secondAttribute="bottom" id="7Pt-vn-iu3"/>
                             <constraint firstItem="eNS-QI-LmK" firstAttribute="top" secondItem="E28-Lz-ke6" secondAttribute="bottom" id="HJh-78-2if"/>
                             <constraint firstItem="4wc-v8-HuX" firstAttribute="top" secondItem="eNS-QI-LmK" secondAttribute="bottom" id="I5T-kv-fcn"/>
-                            <constraint firstItem="mzv-qB-pbK" firstAttribute="top" secondItem="1ux-5V-aFg" secondAttribute="bottom" constant="40" id="IsX-Np-m1i"/>
+                            <constraint firstItem="mzv-qB-pbK" firstAttribute="top" secondItem="1ux-5V-aFg" secondAttribute="bottom" constant="15" id="IsX-Np-m1i"/>
                             <constraint firstItem="Dol-TO-ZYQ" firstAttribute="leading" secondItem="4t1-xG-dsr" secondAttribute="leading" id="JII-PZ-JhM"/>
                             <constraint firstItem="TyR-v1-Wax" firstAttribute="top" secondItem="mzv-qB-pbK" secondAttribute="bottom" constant="21" id="KAZ-02-jJs"/>
                             <constraint firstItem="Dol-TO-ZYQ" firstAttribute="width" secondItem="eNS-QI-LmK" secondAttribute="width" multiplier="0.8" id="KCI-jF-srw"/>
                             <constraint firstItem="eNS-QI-LmK" firstAttribute="leading" secondItem="1Kw-gm-Bfq" secondAttribute="leading" id="NmO-SF-YD6"/>
                             <constraint firstItem="TyR-v1-Wax" firstAttribute="width" secondItem="mzv-qB-pbK" secondAttribute="width" id="P94-Ha-eRr"/>
                             <constraint firstItem="RWB-xp-d54" firstAttribute="leading" secondItem="1Kw-gm-Bfq" secondAttribute="leading" id="RMO-cY-fE8"/>
-                            <constraint firstItem="Dol-TO-ZYQ" firstAttribute="top" secondItem="4t1-xG-dsr" secondAttribute="bottom" constant="30" id="Zo6-F3-bVD"/>
-                            <constraint firstItem="4t1-xG-dsr" firstAttribute="top" secondItem="E28-Lz-ke6" secondAttribute="bottom" constant="58" id="dpq-Mt-EB5"/>
-                            <constraint firstItem="4t1-xG-dsr" firstAttribute="leading" secondItem="1Kw-gm-Bfq" secondAttribute="leading" constant="58" id="e8a-sO-M2B"/>
+                            <constraint firstItem="Dol-TO-ZYQ" firstAttribute="top" secondItem="4t1-xG-dsr" secondAttribute="bottom" constant="15" id="Zo6-F3-bVD"/>
+                            <constraint firstItem="4t1-xG-dsr" firstAttribute="top" secondItem="E28-Lz-ke6" secondAttribute="bottom" constant="20" id="dpq-Mt-EB5"/>
+                            <constraint firstItem="4t1-xG-dsr" firstAttribute="leading" secondItem="1Kw-gm-Bfq" secondAttribute="leading" constant="30" id="e8a-sO-M2B"/>
                             <constraint firstItem="TyR-v1-Wax" firstAttribute="height" secondItem="mzv-qB-pbK" secondAttribute="height" id="fhJ-nZ-aN2"/>
                             <constraint firstItem="hgR-fK-oUl" firstAttribute="top" secondItem="TyR-v1-Wax" secondAttribute="bottom" constant="24" id="hq8-y7-P3S"/>
                             <constraint firstItem="TyR-v1-Wax" firstAttribute="centerX" secondItem="mzv-qB-pbK" secondAttribute="centerX" id="jbH-4x-3pU"/>
