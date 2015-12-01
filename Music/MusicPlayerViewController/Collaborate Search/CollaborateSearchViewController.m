@@ -18,9 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-   // self.navigationItem.hidesBackButton = YES;
+    self.navigationItem.hidesBackButton = YES;
     
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStyleDone target:nil action:nil];
+    //self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStyleDone target:nil action:nil];
+    UIBarButtonItem *flipButton = [[UIBarButtonItem alloc]
+                                   initWithTitle:@"Flip"
+                                   style:UIBarButtonItemStyleDone
+                                   target:self
+                                   action:@selector(flipView:)];
+    self.navigationItem.leftBarButtonItem = flipButton;
 
 
     [searchBar setBackgroundColor:[UIColor clearColor]];

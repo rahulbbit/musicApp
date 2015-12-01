@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface NextViewController : UIViewController
-
+{
+    
+    __weak IBOutlet UITextField *txtTitle;
+    __weak IBOutlet UITextField *txtArtist;
+}
 @end

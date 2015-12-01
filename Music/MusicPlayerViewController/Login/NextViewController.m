@@ -16,6 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIView *paddingView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 15, 20)];
+    txtTitle.leftView = paddingView;
+    txtTitle.leftViewMode = UITextFieldViewModeAlways;
+
+    
+    UIView *paddingView1 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 15, 20)];
+
+    txtArtist.leftView = paddingView1;
+    txtArtist.leftViewMode = UITextFieldViewModeAlways;
     // Do any additional setup after loading the view.
 }
 
