@@ -18,7 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.hidesBackButton = YES;
+   // self.navigationItem.hidesBackButton = YES;
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStyleDone target:nil action:nil];
+
 
     [searchBar setBackgroundColor:[UIColor clearColor]];
     [searchBar setBarTintColor:[UIColor clearColor]]; //this is what you want
