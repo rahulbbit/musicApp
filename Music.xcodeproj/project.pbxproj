@@ -565,6 +565,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.defineThings.Music;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8b5f4602-f60b-4cb5-8f6c-ebeee0c4dbc0";
 			};
 			name = Debug;
 		};
@@ -576,6 +577,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.defineThings.Music;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8b5f4602-f60b-4cb5-8f6c-ebeee0c4dbc0";
 			};
 			name = Release;
 		};
