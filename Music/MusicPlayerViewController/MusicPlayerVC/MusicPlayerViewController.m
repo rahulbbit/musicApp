@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.hidesBackButton = YES;
+
     // Do any additional setup after loading the view.
 }
 
@@ -24,6 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+-(BOOL)slideNavigationControllerShouldDisplayLeftMenu
+{
+    return YES;
+}
 /*
 #pragma mark - Navigation
 
@@ -34,4 +41,12 @@
 }
 */
 
+- (IBAction)leftBarButtonIem:(UIBarButtonItem *)sender {
+    
+}
+
+- (IBAction)rightBarButton:(id)sender {
+    RecordingProcessViewController *recordProcess = [self.storyboard instantiateViewControllerWithIdentifier:@"RecordingProcessViewController"];
+    [self.navigationController pushViewController:recordProcess animated:YES];
+}
 @end

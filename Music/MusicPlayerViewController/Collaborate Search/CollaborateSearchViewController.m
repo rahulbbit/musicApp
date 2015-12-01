@@ -18,7 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    self.navigationItem.hidesBackButton = YES;
+
     [searchBar setBackgroundColor:[UIColor clearColor]];
     [searchBar setBarTintColor:[UIColor clearColor]]; //this is what you want
 
@@ -37,6 +38,10 @@
     return cell;
 }
 
+-(BOOL)slideNavigationControllerShouldDisplayLeftMenu
+{
+    return YES;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

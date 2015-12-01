@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SlideNavigationController.h"
+#import "RecordingProcessViewController.h"
 
-@interface MusicPlayerViewController : UIViewController
 
+@interface MusicPlayerViewController : UIViewController<SlideNavigationControllerDelegate>
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *leftBarButtonItem;
+- (IBAction)leftBarButtonIem:(UIBarButtonItem *)sender;
+
+- (IBAction)rightBarButton:(id)sender;
 @end

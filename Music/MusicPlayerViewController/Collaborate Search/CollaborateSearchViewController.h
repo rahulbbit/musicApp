@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SlideNavigationController.h"
 
-@interface CollaborateSearchViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@interface CollaborateSearchViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,SlideNavigationControllerDelegate>
 {
     
     __weak IBOutlet UISearchBar *searchBar;

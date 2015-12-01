@@ -72,7 +72,12 @@
 {
     [tableView deselectRowAtIndexPath:[tableView indexPathForSelectedRow] animated:YES];
    
-    if (indexPath.row == 1)
+    if (indexPath.row == 0) {
+        ArtistSuffleViewCViewController *artist = [self.storyboard instantiateViewControllerWithIdentifier:@"ArtistSuffleViewCViewController"];
+        [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:artist withSlideOutAnimation:self.slideOutAnimationEnabled andCompletion:nil];
+    }
+    
+   else if (indexPath.row == 1)
     {
         CollaborateSearchViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"CollaborateSearchViewController"];
         [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc withSlideOutAnimation:self.slideOutAnimationEnabled andCompletion:nil];

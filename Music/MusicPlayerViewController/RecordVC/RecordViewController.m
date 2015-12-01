@@ -17,12 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title=@"RECORD";
+    self.navigationItem.hidesBackButton = YES;
+
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+-(BOOL)slideNavigationControllerShouldDisplayLeftMenu
+{
+    return YES;
 }
 
 /*
@@ -35,4 +41,9 @@
 }
 */
 
+- (IBAction)recordBtn:(id)sender {
+    RecordYesorNoViewController *recordYesorno = [self.storyboard instantiateViewControllerWithIdentifier:@"RecordYesorNoViewController"];
+    
+    [self.navigationController pushViewController:recordYesorno animated:YES];
+}
 @end

@@ -25,6 +25,7 @@
 		546214C91C023C1400729C7D /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214BC1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlide.m */; };
 		546214CA1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214BE1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
 		546214CB1C023C1400729C7D /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546214C01C023C1400729C7D /* SlideNavigationController.m */; };
+		549D1EDE1C0CD9E10056B596 /* JJMaterialTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 549D1EDD1C0CD9E10056B596 /* JJMaterialTextfield.m */; };
 		54DC0E3D1C0817C800282612 /* CollaborateSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC0E3C1C0817C800282612 /* CollaborateSearchViewController.m */; };
 		54DC0E451C08188200282612 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC0E441C08188200282612 /* NextViewController.m */; };
 		54DC0E491C0818D600282612 /* RecordYesorNoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC0E481C0818D600282612 /* RecordYesorNoViewController.m */; };
@@ -74,6 +75,8 @@
 		546214BE1C023C1400729C7D /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
 		546214BF1C023C1400729C7D /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
 		546214C01C023C1400729C7D /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
+		549D1EDC1C0CD9E10056B596 /* JJMaterialTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMaterialTextfield.h; sourceTree = "<group>"; };
+		549D1EDD1C0CD9E10056B596 /* JJMaterialTextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMaterialTextfield.m; sourceTree = "<group>"; };
 		54DC0E3B1C0817C800282612 /* CollaborateSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollaborateSearchViewController.h; path = "Collaborate Search/CollaborateSearchViewController.h"; sourceTree = "<group>"; };
 		54DC0E3C1C0817C800282612 /* CollaborateSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollaborateSearchViewController.m; path = "Collaborate Search/CollaborateSearchViewController.m"; sourceTree = "<group>"; };
 		54DC0E431C08188200282612 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NextViewController.h; path = Login/NextViewController.h; sourceTree = "<group>"; };
@@ -226,6 +229,8 @@
 		546214A91C023C1400729C7D /* JJTextField */ = {
 			isa = PBXGroup;
 			children = (
+				549D1EDC1C0CD9E10056B596 /* JJMaterialTextfield.h */,
+				549D1EDD1C0CD9E10056B596 /* JJMaterialTextfield.m */,
 			);
 			path = JJTextField;
 			sourceTree = "<group>";
@@ -424,6 +429,7 @@
 				546214C11C023C1400729C7D /* DLRadioButton.m in Sources */,
 				54DC0E551C081A1100282612 /* notificationViewController.m in Sources */,
 				77A0D4351C0A371A006FE66E /* ArtistListCollectionViewCell.m in Sources */,
+				549D1EDE1C0CD9E10056B596 /* JJMaterialTextfield.m in Sources */,
 				54DC0E491C0818D600282612 /* RecordYesorNoViewController.m in Sources */,
 				77A0D4321C0A36E4006FE66E /* ArtistSuffleViewCViewController.m in Sources */,
 				5457672A1BFE4721009FB2FC /* main.m in Sources */,

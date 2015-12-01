@@ -10,9 +10,10 @@
 #import "JVFloatLabeledTextField.h"
 #import "SlideNavigationController.h"
 #import "ArtistSuffleViewCViewController.h"
-
+#import "RegisterViewController.h"
 
 @interface LoginViewController : UIViewController<UITextFieldDelegate>
 - (IBAction)btnlogin:(id)sender;
+- (IBAction)btnSignUp:(id)sender;
 
 @end

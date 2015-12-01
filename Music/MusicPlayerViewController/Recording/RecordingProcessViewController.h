@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "notificationViewController.h"
+
 
 @interface RecordingProcessViewController : UIViewController
 

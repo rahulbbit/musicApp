@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface RecordViewController : UIViewController
+#import "SlideNavigationController.h"
+#import "RecordYesorNoViewController.h"
+@interface RecordViewController : UIViewController<SlideNavigationControllerDelegate>
+- (IBAction)recordBtn:(id)sender;
 
 @end

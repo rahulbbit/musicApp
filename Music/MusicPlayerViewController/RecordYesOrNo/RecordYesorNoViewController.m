@@ -33,5 +33,13 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (IBAction)btnNo:(id)sender {
+    NextViewController *next = [self.storyboard instantiateViewControllerWithIdentifier:@"NextViewController"];
+    [self.navigationController pushViewController:next animated:YES];
+}
 
+- (IBAction)btnYes:(id)sender {
+    PlayListViewController *playlist = [self.storyboard instantiateViewControllerWithIdentifier:@"PlayListViewController"];
+    [self.navigationController pushViewController:playlist animated:YES];
+}
 @end

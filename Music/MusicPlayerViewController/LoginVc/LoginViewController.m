@@ -38,7 +38,13 @@
 */
 
 - (IBAction)btnlogin:(id)sender {
-    ArtistSuffleViewCViewController *artist = [self.storyboard instantiateViewControllerWithIdentifier:@"ArtistSuffleViewCViewController"];
-    [self.navigationController pushViewController:artist animated:YES];
+//    ArtistSuffleViewCViewController *artist = [self.storyboard instantiateViewControllerWithIdentifier:@"ArtistSuffleViewCViewController"];
+//    [self.navigationController pushViewController:artist animated:YES];
+}
+
+- (IBAction)btnSignUp:(id)sender {
+    RegisterViewController *registerViewControll = [self.storyboard instantiateViewControllerWithIdentifier:@"RegisterViewController"];
+    [self.navigationController pushViewController:registerViewControll animated:YES];
+
 }
 @end

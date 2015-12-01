@@ -23,6 +23,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)recordPlayBtn:(id)sender {
+    notificationViewController *notify = [self.storyboard instantiateViewControllerWithIdentifier:@"notificationViewController"];
+    [self.navigationController pushViewController:notify animated:YES];
+}
 
 /*
 #pragma mark - Navigation

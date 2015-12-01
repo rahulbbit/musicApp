@@ -10,7 +10,7 @@
 #import "CollaborateSearchViewController.h"
 #import "RecordViewController.h"
 #import "SlideNavigationController.h"
-
+#import "ArtistSuffleViewCViewController.h"
 
 @interface SideBarViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 {

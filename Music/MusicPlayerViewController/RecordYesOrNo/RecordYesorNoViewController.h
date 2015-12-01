@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PlayListViewController.h"
+#import "NextViewController.h"
+
 
 @interface RecordYesorNoViewController : UIViewController
+- (IBAction)btnYes:(id)sender;
 
 @end
