@@ -16,11 +16,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.hidesBackButton = YES;
 
+//
+//    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"home_icon"]
+//                                                                   style:UIBarButtonItemStyleDone
+//                                                                  target:self
+//                                                                  action:@selector(openSideMenu)];
+    
+//    self.navigationItem.leftBarButtonItem = backButton;
+    
+    
+      
     // Do any additional setup after loading the view.
 }
 
+-(void)openSideMenu
+{
+    
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
