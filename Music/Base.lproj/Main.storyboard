@@ -549,7 +549,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pc6-in-5En" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2781" y="637"/>
+            <point key="canvasLocation" x="2810" y="693"/>
         </scene>
         <!--Play List View Controller-->
         <scene sceneID="P0p-mX-BfO">
@@ -563,6 +563,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Artist" translatesAutoresizingMaskIntoConstraints="NO" id="y85-2y-hF5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="627"/>
+                                <animations/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pPP-kc-q42" userLabel="Mice BackGround">
                                 <rect key="frame" x="0.0" y="627" width="375" height="40"/>
                                 <animations/>
@@ -638,14 +642,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="vHT-uk-SXw" firstAttribute="centerX" secondItem="PY2-za-Ylw" secondAttribute="centerX" id="0Sh-Gi-JgB"/>
+                            <constraint firstItem="pPP-kc-q42" firstAttribute="top" secondItem="y85-2y-hF5" secondAttribute="bottom" id="3yI-lF-WxC"/>
+                            <constraint firstItem="y85-2y-hF5" firstAttribute="leading" secondItem="PY2-za-Ylw" secondAttribute="leading" id="DRu-Kn-h8A"/>
                             <constraint firstItem="7Fd-oP-W4F" firstAttribute="top" secondItem="hdL-zM-aIW" secondAttribute="bottom" constant="15" id="Iq1-uV-1eX"/>
                             <constraint firstItem="5Cg-Ah-pnl" firstAttribute="top" secondItem="vHT-uk-SXw" secondAttribute="bottom" constant="8" id="Iyp-S0-cP0"/>
                             <constraint firstItem="hdL-zM-aIW" firstAttribute="leading" secondItem="PY2-za-Ylw" secondAttribute="leading" constant="50" id="KxS-ca-9mx"/>
                             <constraint firstItem="pPP-kc-q42" firstAttribute="leading" secondItem="PY2-za-Ylw" secondAttribute="leading" id="PWu-Dz-5GI"/>
                             <constraint firstItem="hdL-zM-aIW" firstAttribute="top" secondItem="BnN-wZ-Ceb" secondAttribute="bottom" constant="34" id="QLq-4D-i9e"/>
                             <constraint firstAttribute="trailing" secondItem="7Fd-oP-W4F" secondAttribute="trailing" id="SGt-te-nZs"/>
+                            <constraint firstAttribute="trailing" secondItem="y85-2y-hF5" secondAttribute="trailing" id="ZVO-CK-lyf"/>
                             <constraint firstItem="pPP-kc-q42" firstAttribute="top" secondItem="7Fd-oP-W4F" secondAttribute="bottom" id="bpW-z2-Uvg"/>
                             <constraint firstAttribute="trailing" secondItem="pPP-kc-q42" secondAttribute="trailing" id="bxQ-Pc-oD9"/>
+                            <constraint firstItem="y85-2y-hF5" firstAttribute="top" secondItem="PY2-za-Ylw" secondAttribute="top" id="nOC-6g-7Mc"/>
                             <constraint firstItem="5Cg-Ah-pnl" firstAttribute="top" secondItem="pPP-kc-q42" secondAttribute="bottom" id="waB-nf-LCb"/>
                             <constraint firstItem="7Fd-oP-W4F" firstAttribute="leading" secondItem="PY2-za-Ylw" secondAttribute="leading" id="zkE-UA-sr2"/>
                         </constraints>
