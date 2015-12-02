@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[self navigationController] setNavigationBarHidden:NO animated:YES];
+    self.navigationItem.title = @"RECORD";
+
 }
 
 - (void)didReceiveMemoryWarning {

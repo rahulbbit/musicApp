@@ -22,6 +22,11 @@
     // Do any additional setup after loading the view.
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    [[self navigationController] setNavigationBarHidden:YES animated:YES];
+
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -45,5 +50,14 @@
     RecordYesorNoViewController *recordYesorno = [self.storyboard instantiateViewControllerWithIdentifier:@"RecordYesorNoViewController"];
     
     [self.navigationController pushViewController:recordYesorno animated:YES];
+}
+
+- (IBAction)leftBarButton:(UIButton *)sender {
+    [[SlideNavigationController sharedInstance] toggleLeftMenu];
+}
+
+- (IBAction)PLAYBUTTON:(id)sender {
+    notificationViewController *notify = [self.storyboard instantiateViewControllerWithIdentifier:@"notificationViewController"];
+    [self.navigationController pushViewController:notify animated:YES];
 }
 @end

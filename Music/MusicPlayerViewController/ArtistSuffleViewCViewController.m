@@ -19,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[self navigationController] setNavigationBarHidden:YES animated:YES];
+
 }
 
 
@@ -73,6 +75,10 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)leftBarButton:(UIButton *)sender {
+    [[SlideNavigationController sharedInstance] toggleLeftMenu];
+}
 
 - (IBAction)BarButtonPush:(id)sender {
  

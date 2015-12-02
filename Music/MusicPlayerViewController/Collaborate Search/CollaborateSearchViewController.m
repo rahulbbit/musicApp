@@ -18,19 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.hidesBackButton = YES;
-    
-    //self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStyleDone target:nil action:nil];
-    UIBarButtonItem *flipButton = [[UIBarButtonItem alloc]
-                                   initWithTitle:@"Flip"
-                                   style:UIBarButtonItemStyleDone
-                                   target:self
-                                   action:@selector(flipView:)];
-    self.navigationItem.leftBarButtonItem = flipButton;
-
-
-    [searchBar setBackgroundColor:[UIColor clearColor]];
-    [searchBar setBarTintColor:[UIColor clearColor]]; //this is what you want
+    [[self navigationController] setNavigationBarHidden:YES animated:YES];
 
     // Do any additional setup after loading the view.
 }
@@ -55,6 +43,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)leftBarButton:(UIButton *)sender {
+    [[SlideNavigationController sharedInstance] toggleLeftMenu];
 }
 
 /*

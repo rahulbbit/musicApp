@@ -25,6 +25,9 @@
 
     txtArtist.leftView = paddingView1;
     txtArtist.leftViewMode = UITextFieldViewModeAlways;
+    
+    self.navigationItem.title = @"RECORD";
+
     // Do any additional setup after loading the view.
 }
 

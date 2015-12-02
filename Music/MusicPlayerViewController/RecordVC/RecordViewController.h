@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "SlideNavigationController.h"
+#import "notificationViewController.h"
+
 #import "RecordYesorNoViewController.h"
 @interface RecordViewController : UIViewController<SlideNavigationControllerDelegate>
 - (IBAction)recordBtn:(id)sender;
+- (IBAction)leftBarButton:(UIButton *)sender;
+- (IBAction)PLAYBUTTON:(id)sender;
 
 @end
